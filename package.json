@@ -2,7 +2,9 @@
   "name": "getstarted",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {"report": "cmd /C \"npx allure generate allure-results --clean && npx allure open\""},
+  "scripts": {
+    "report": "cmd /C \"npx allure generate allure-results --clean && npx allure open\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,10 +16,7 @@
     "@typescript-eslint/parser": "^8.33.1",
     "allure-commandline": "^2.34.0",
     "eslint": "^9.28.0",
-    "allure-playwright": "^2.18.0"
-  },
-  "dependencies": {
-    "allure-playwright": "^3.2.2",
+    "allure-playwright": "^3.2.2",        
     "eslint-plugin-playwright": "^2.2.0"
   }
 }
